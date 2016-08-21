@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\UI">
+      <UniqueIdentifier>{faf4e887-2062-4332-98b0-e69ee7d227ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\DBCSVService">
+      <UniqueIdentifier>{d2961fee-3b71-4689-a9bb-d7b4251941bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Effect">
+      <UniqueIdentifier>{7a33eb76-2a2c-4436-868f-fb6a3079eb59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Entity">
+      <UniqueIdentifier>{daf8b13b-1e32-412f-be2d-90649f147062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Global">
+      <UniqueIdentifier>{f60b73a9-54d2-427e-9b42-6bfc0d60a0bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Android">
+      <UniqueIdentifier>{e47e129f-27df-484a-bccf-c45fb0f25ca9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\stdafx.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Config.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DBCSVService\CSVFile.cpp">
+      <Filter>Classes\DBCSVService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DBCSVService\DBTable.cpp">
+      <Filter>Classes\DBCSVService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DBCSVService\DBCSVService.cpp">
+      <Filter>Classes\DBCSVService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DBCSVService\PlanetTable.cpp">
+      <Filter>Classes\DBCSVService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BlurLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Effect\ParticleFire.cpp">
+      <Filter>Classes\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\EntityManager.cpp">
+      <Filter>Classes\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\Planet.cpp">
+      <Filter>Classes\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\Rocket.cpp">
+      <Filter>Classes\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\Rocket_sm.cpp">
+      <Filter>Classes\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\UIDialog.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\UIGameOver.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\UIGameStop.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\UIGameVictory.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\UILogo.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\UIMainMenu.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\UIMember.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\UISetLayer.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\UIStageSelect.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\BlackHole.cpp">
+      <Filter>Classes\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\UIOption.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\EnergyBag.cpp">
+      <Filter>Classes\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Android\AndroidInterface.cpp">
+      <Filter>Classes\Android</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DBCSVService\StageTable.cpp">
+      <Filter>Classes\DBCSVService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\Stage.cpp">
+      <Filter>Classes\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\Collection.cpp">
+      <Filter>Classes\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\Collection_sm.cpp">
+      <Filter>Classes\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\UILoading.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\stdafx.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Config.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DBCSVService\DBCSVDefine.h">
+      <Filter>Classes\DBCSVService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DBCSVService\CSVFile.h">
+      <Filter>Classes\DBCSVService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DBCSVService\DBTable.h">
+      <Filter>Classes\DBCSVService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DBCSVService\DBCSVService.h">
+      <Filter>Classes\DBCSVService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DBCSVService\PlanetTable.h">
+      <Filter>Classes\DBCSVService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BlurLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Effect\Fire.h" />
+    <ClInclude Include="..\Classes\Effect\ParticleFire.h">
+      <Filter>Classes\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\EntityManager.h">
+      <Filter>Classes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\Planet.h">
+      <Filter>Classes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\statemap.h">
+      <Filter>Classes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\Rocket.h">
+      <Filter>Classes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\Rocket_sm.h">
+      <Filter>Classes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UIDialog.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UIGameOver.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UIGameStop.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UIGameVictory.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UILogo.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UIMainMenu.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UIMember.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UISetLayer.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UIStageSelect.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Global\Global_Define.h">
+      <Filter>Classes\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\BlackHole.h">
+      <Filter>Classes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UIOption.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\EnergyBag.h">
+      <Filter>Classes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Android\AndroidInterface.h">
+      <Filter>Classes\Android</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DBCSVService\StageTable.h">
+      <Filter>Classes\DBCSVService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\Stage.h">
+      <Filter>Classes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\Collection.h">
+      <Filter>Classes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\Collection_sm.h">
+      <Filter>Classes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UILoading.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
